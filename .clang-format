@@ -1,0 +1,18 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+BreakBeforeBraces: Custom
+BraceWrapping:
+    AfterFunction: true
+    AfterEnum: true
+    AfterUnion: true
+    AfterStruct: true
+    AfterCaseLabel: true
+    AfterControlStatement: Always
+    AfterExternBlock: false
+    BeforeElse: true
+    BeforeWhile: false
+    SplitEmptyFunction: false
+SpaceBeforeParens: Never
+PointerAlignment: Left
+IndentCaseLabels: true
